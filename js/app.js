@@ -186,7 +186,7 @@ function serviceModel(feature) {
     //$(".digital_tv").prepend('<div class="product-content"><img src="https://static.wixstatic.com/media/aee650_a6c7b00f0c6b48089c1bede43dd9840b~mv2.png/v1/fill/w_192,h_176,al_c,q_85/thumbs--up.webp" style="vertical-align: middle;width:60px;height:60px;">' + '&nbsp;&nbsp;' + feature.properties.digital_tv + '</div>');
     //$(".phone").prepend('<div class="product-content"><img src="https://static.wixstatic.com/media/aee650_fba80802eb42472dad1a3286ebee75e0~mv2_d_3517_3350_s_4_2.png/v1/fill/w_66,h_59,al_c,q_80,usm_0.66_1.00_0.01/Sytek%20Icons-02.webp" style="vertical-align: middle;width:60px;height:60px;">' + '&nbsp;&nbsp;<span>' + feature.properties.phone + '</span></div>');
     //$(".home_automation").prepend('<div class="product-content"><img src="https://static.wixstatic.com/media/aee650_7d28d8b31fb849b1aaf528ca5296ea06~mv2.png/v1/fill/w_188,h_188,al_c/aee650_7d28d8b31fb849b1aaf528ca5296ea06~mv2.png" style="vertical-align: middle;width:60px;height:60px;">' + '&nbsp;&nbsp;' + feature.properties.home_autom + '</div>');
-    $("#service-modal .modal-footer").prepend('<a class="btn btn-custom center-block" href="' + feature.properties.url + '" target="_parent" role="button">Complete the survey to show your support</a>');
+    $("#service-modal .modal-footer").prepend('<a class="btn btn-custom center-block" href="' + feature.properties.url + '" target="_blank" role="button">Complete the survey to show your support</a>');
 }
 
 // executed when feature is clicked
