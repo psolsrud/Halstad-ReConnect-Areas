@@ -51,6 +51,7 @@ html, body {
     z-index: 1050;
     /* width: fit-content; */
     /* margin: -250px 0 0 -400px; */
+    max-height: 80%
     overflow: auto;
     box-shadow: #2e3133;
     max-width: 80%;
@@ -133,3 +134,17 @@ input[type=text] {
     background-color: #c0c0c0;
     /* box-shadow: 2px 2px #c0c0c0; */
 }
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
