@@ -73,11 +73,12 @@ function myStyle(feature) {
         // fillColor: "#FF00FF",
         // fillOpacity: 1,
         // color: '#B04173',
-        fillColor: 'gray',
-        weight: 2,
-        opacity: .1, //Outline opacity
-        color: 'gray',  //Outline color
-        fillOpacity: .1
+        fillColor: "#262222", //polygon fill color
+        fillOpacity: .5, //polygon fill opacity
+        weight: 2, //outline line thickness
+        opacity: .5, //Outline opacity
+        color: 'gray'  //Outline color
+        
     };
 }
 
@@ -85,7 +86,7 @@ function mySelectedStyle(feature) {
     return {
         fillColor: 'gray',
         color: 'gray',
-        fillOpacity: .2
+        fillOpacity: .5
     };
 }
 
