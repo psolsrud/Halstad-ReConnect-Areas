@@ -17,6 +17,28 @@
 
 	<link rel="stylesheet" href="css/style.css" />
 
+	<style>
+		.modal-content {
+			overflow-y: hidden;
+		}
+
+		.modal.service-modal {
+			height: 95vh !important;
+		}
+
+		.modal.service-modal .modal-dialog,
+		.modal.service-modal .modal-content,
+		.modal.service-modal .modal-body {
+			height: 100%;
+		}
+
+		@media screen and (max-width: 450px) {
+			.modal.service-modal {
+				max-width: 100%;
+			}
+		}
+	</style>
+
 </head>
 
 <body>
@@ -63,13 +85,13 @@
 	</div>
 
 	<!-- SERVICES MODAL -->
-	<div class="modal fade" id="service-modal" role="dialog">
+	<div class="modal service-modal fade" id="service-modal" role="dialog">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				
 				<div class="modal-body mb-0 p-0">
 
-					<div id="map-container" class="z-depth-1-half map-container" style="height: 800px">
+					<div id="map-container" class="z-depth-1-half map-container" style="height: 100%">
 						<iframe src="https://survey123.arcgis.com/share/f4afdb83762c462686cd410d2ed22d53" frameborder="0"
 						  style="border:0" allowfullscreen></iframe>
 					  </div>
