@@ -165,8 +165,20 @@ input[type=text] {
     height: 100%;
 }
 
-@media screen and (max-width: 450px) {
+/* .show-on-mobile {
+    display: none;
+} */
+
+/* @media screen and (max-width: 450px) {
     .modal.service-modal {
         max-width: 100%;
     }
-}
+
+    .show-on-mobile {
+        display: initial;
+    }
+
+    .show-on-desktop {
+        display: none;
+    }
+} */
