@@ -157,12 +157,13 @@ input[type=text] {
 .modal.service-modal {
     height: 95vh !important;
     overflow-y: hidden;
+    max-height: 100%;
 }
 
 .modal.service-modal .modal-dialog,
 .modal.service-modal .modal-content,
 .modal.service-modal .modal-body {
-    height: 100%;
+    height: 99%;
 }
 
 /* .show-on-mobile {
