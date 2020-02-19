@@ -163,7 +163,7 @@ input[type=text] {
 .modal.service-modal .modal-dialog,
 .modal.service-modal .modal-content,
 .modal.service-modal .modal-body {
-    height: 99%;
+    height: 97%;
 }
 
 /* .show-on-mobile {
