@@ -170,16 +170,16 @@ input[type=text] {
     display: none;
 } */
 
-/* @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .modal.service-modal {
         max-width: 100%;
     }
 
-    .show-on-mobile {
+    /* .show-on-mobile {
         display: initial;
     }
 
     .show-on-desktop {
         display: none;
-    }
-} */
+    } */
+}
